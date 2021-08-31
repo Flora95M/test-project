@@ -1,7 +1,7 @@
-import Link from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 
-function ManinNavigation() {
+function MainNavigation() {
 
 
 
@@ -11,6 +11,7 @@ function ManinNavigation() {
       <ul>
         <li><Link to = "/">Todos</Link></li>
         <li><Link to = "/create">Create Todo</Link></li>
+        <li><Link to = "/favorites">favorites</Link></li>
       </ul>
     </nav>
 
